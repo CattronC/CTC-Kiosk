@@ -1,7 +1,7 @@
 html {
     background-color: #19191a;
 }
-body {
+.content {
     display: flex;
     flex-direction: column;
     width: 70%;
