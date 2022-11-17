@@ -1,0 +1,42 @@
+html {
+    background-color: #19191a;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+h1 {
+    margin: auto;
+    font-size: 12em;
+}
+iframe {
+    margin-bottom: 150pxpx;
+    margin-top: 150px;
+}
+
+.ctc {
+    float: left;
+    width: 70%;
+}
+footer {
+    margin-top: 60px;
+}
+.class {
+    font-size: 4em;
+
+    margin: 10px;
+}
+.suggest {
+    font-size: 3em;
+    margin: 0;
+}
+.creators {
+    margin-top: 250px;
+    float: right;
+    font-size: 1.7em;
+    font-style: italic;
+}

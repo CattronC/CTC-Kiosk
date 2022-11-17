@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index_styles.css">
+    <script src="./indexapp.js"></script>
+
+    <title>CTC Kiosk</title>
+</head>
+<body >
+    <img class="ctc" src="CTC_kiosk_wp.png" alt="CTC logo">
+        <h1>CHECK ME OUT!</h1>
+
+        <!-- WEATHER APP CODE -->
+    <iframe name="weatherapp" src="weatherapp.html" scrolling="no" title="weather_app" height="600px" runat="server"></iframe>
+     <script>
+        // calls it and sets the reload interval to 1 minute
+        window.setInterval("reloadIFrame();", 60000);
+// reloads weatherapp Iframe
+function reloadIFrame() {
+ window.frames["weatherapp"].location.reload(); 
+}
+     </script>
+     <!-- END OF WEATHER APP CODE -->
+    <iframe class="" src="carousel.html" scrolling="no" title="news" height="600px" width=""></iframe>
+    <iframe class="" src=".html" scrolling="no" title="qr code" height="600px" width=""></iframe>
+<footer>
+    <p class="class">This Kiosk is maintained by the CTC Computer Coding and Programming program. < / > </p>
+
+<p class="suggest">If you have any suggestions email: cattronc@capetigers.com</p>
+<p class="creators">Created by: Kevin and Lupita</p>
+</footer>
+</body>
+</html>
