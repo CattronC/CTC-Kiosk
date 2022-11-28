@@ -11,6 +11,7 @@ html {
 }
 h1 {
     margin: auto;
+    margin-bottom: -100px;
     font-size: 12em;
 }
 iframe {
@@ -24,6 +25,7 @@ iframe {
 .ctc {
     float: left;
     width: 70%;
+    margin-bottom: -225px;
 }
 footer {
     margin-top: 60px;

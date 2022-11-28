@@ -8,7 +8,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index_styles.css">
-    <script src="./indexapp.js"></script>
 
     <title>CTC Kiosk</title>
 </head>
@@ -18,7 +17,7 @@
         <h1>CHECK ME OUT!</h1>
 
         <!-- WEATHER APP CODE -->
-    <iframe name="weatherapp" src="weatherapp.html" scrolling="no" title="weather_app" height="600px" runat="server"></iframe>
+    <iframe name="weatherapp" src="weatherapp.html" frameBorder="0" scrolling="no" title="weather_app" height="600px" runat="server"></iframe>
      <script>
         // calls it and sets the reload interval to 1 minute
         window.setInterval("reloadIFrame();", 60000);
@@ -28,8 +27,12 @@ function reloadIFrame() {
 }
      </script>
      <!-- END OF WEATHER APP CODE -->
-    <iframe class="" src="carousel.html" scrolling="no" title="news" height="600px" width=""></iframe>
+    <iframe class="carousel" src="carousel.html" frameBorder="0" scrolling="no" title="news" height="805px" width=""></iframe>
     <img class="deca" src="QR Poster Horizontal.png" height="600px" alt="">
+
+
+
+    
 <footer>
     <p class="class">This Kiosk is maintained by the CTC Computer Coding and Programming program. < / > </p>
 
@@ -37,6 +40,8 @@ function reloadIFrame() {
 <p class="creators">Created by: Kevin and Lupita</p>
 </footer>
     </div>
+
+    
         
 </body>
 </html>

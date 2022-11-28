@@ -34,6 +34,7 @@ let weather = {
       document.querySelector(".weather").classList.remove("loading");
 
 console.log(description)
+
       // Changes the background depending on the description of the forecast
         if(description === "clear sky") {
           document.body.style.backgroundImage =
