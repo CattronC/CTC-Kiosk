@@ -11,12 +11,12 @@ img {
     vertical-align: middle;
 }
 .slideshow-container {
-    max-width: 80%;
+    max-width: 100%;
     position: relative;
     margin: auto;
     border: solid 3px black;
 }
-.prev, .next {
+/* .prev, .next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -33,20 +33,32 @@ img {
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
-}
-.prev:hover, .next:hover {
+} */
+/* .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
+} */
+
+h1 {
+    background-color: white;
+    text-align: center;
+    padding: 3px 5px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .text {
     color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 15px 12px;
+    /* position: absolute; */
     width: 100%;
     text-align: center;
-    bottom: 8px;
+    top: -5px;
+    background-color: black;
 }
+
+
 .numbertext {
     color: #f2f2f2;
     font-size: 12px;
@@ -54,7 +66,7 @@ img {
     position: absolute;
     top: 0;
 }
-.dot {
+/* .dot {
     cursor: pointer;
     height: 15px;
     width: 15px;
@@ -63,10 +75,10 @@ img {
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
-}
-.active, .dot:hover {
+} */
+/* .active, .dot:hover {
     background-color: #717171;
-}
+} */
 .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
@@ -85,7 +97,7 @@ img {
 
 /*(13:57) https://www.youtube.com/watch?v=DpHi9Ruu8R4  */
 /* responsive*/
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 400px) {
     .prev, .next, .text {
         font-size: 11px;
     }
@@ -95,16 +107,41 @@ img {
     }
 }
 
-@media only screen and (max-width: 500px) {
-    .prev, .next, .text {
-        font-size: 14px;
+@media only screen and (max-width: 2100px) {
+  
+
+    img.wong {
+        width: 1336px; 
+        height: 550px;
     }
-   
+    img.Italy-Fem {
+        width: 1057px;
+        height: 550px;
+    }
+
+    img.AI-write {
+        height: 560px;
+    }
+
+    img.State-Bus {
+        width: 1030px;
+        height: 550px;
+    }
+   .State-text {
+    top: -4px;
+   }
+
+   .Stock {
+    bottom: 4px;
+    height: 570px;
+   }
+
+
 }
 
 /*Own*/
 
 .text {
     background-color: black;
-    font-size: 20px;
+    font-size: 60px;
 }

@@ -1,0 +1,47 @@
+html {
+    background-color: #19191a;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+h1 {
+    margin: auto;
+    margin-bottom: -100px;
+    font-size: 12em;
+}
+iframe {
+    margin-top: 150px;
+}
+
+.deca {
+    margin-top: 150px;
+}
+
+.ctc {
+    float: left;
+    width: 70%;
+    margin-bottom: -225px;
+}
+footer {
+    margin-top: 60px;
+}
+.class {
+    font-size: 4em;
+
+    margin: 10px;
+}
+.suggest {
+    font-size: 3em;
+    margin: 0;
+}
+.creators {
+    margin-top: 250px;
+    float: right;
+    font-size: 1.7em;
+    font-style: italic;
+}
