@@ -32,7 +32,7 @@ HTML elements
 
 .scoreboard {
   width: 700px;
-  height: 150px;
+  height: 0px;
   border-radius: 15px;
   border: 1px solid white;
   display: flex;
@@ -183,3 +183,4 @@ button, input#restart {
   cursor: pointer;
 
 }
+
