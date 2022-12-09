@@ -1,4 +1,4 @@
-# CTC-Kiosk
+# CTC Kiosk
 ---
 ## CTC Computer Coding &amp; Programming Kiosk Project
 ---
