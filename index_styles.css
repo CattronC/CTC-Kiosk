@@ -12,14 +12,15 @@ html {
 h1 {
     margin: auto;
     margin-bottom: -100px;
-    font-size: 12em;
+    font-size: 10em;
 }
+
 iframe {
-    margin-top: 150px;
+    margin-top: 115px;
 }
 
 .deca {
-    margin-top: 150px;
+    margin-top: 115px;
 }
 
 .ctc {
@@ -40,7 +41,7 @@ footer {
     margin: 0;
 }
 .creators {
-    margin-top: 250px;
+    margin-top: 50px;
     float: right;
     font-size: 1.7em;
     font-style: italic;
